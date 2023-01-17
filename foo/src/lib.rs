@@ -2,7 +2,7 @@ pub struct Foo;
 
 #[cfg(test)]
 mod tests {
-    use crate::Foo;
+    use bar::foo::Foo;
 
     #[test]
     fn it_works() {
